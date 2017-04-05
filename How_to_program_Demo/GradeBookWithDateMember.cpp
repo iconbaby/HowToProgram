@@ -5,6 +5,9 @@ class GradeBook2 {
 private:
 	string courseName;
 public:
+	explicit GradeBook2(string name) :courseName(name) {
+
+	}
 	string getCourseName()const {
 		return courseName;
 	}
@@ -17,7 +20,7 @@ public:
 };
 int main() {
 	string courseName;
-	GradeBook2 gradebook2;
+	GradeBook2 gradebook2("hello");
 	getline(cin, courseName);
 	gradebook2.setCourseName(courseName);
 	gradebook2.displayMessage();
