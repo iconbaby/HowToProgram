@@ -12,7 +12,8 @@ int main() {
 	string courseName;
 	GradeBook gradeBook;
 	cout << "please enter the your course name" << endl;
-	getline(cin,courseName);
+	cin >> courseName;
+	//getline(cin,courseName);
 	gradeBook.displayMessage(courseName);
 
 }

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GradeBook.cpp">
+    <ClCompile Include="GradeBookWithDateMember.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
