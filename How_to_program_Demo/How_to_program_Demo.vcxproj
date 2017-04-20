@@ -19,7 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GradeBookWithDateMember.cpp" />
+    <ClCompile Include="fig03_10.cpp" />
+    <ClCompile Include="Fig6.8.cpp" />
+    <ClCompile Include="GradeBook.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GradeBook.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
