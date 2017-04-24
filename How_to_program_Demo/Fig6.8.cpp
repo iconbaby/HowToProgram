@@ -1,6 +1,7 @@
 #include<iostream>
-#include<cstdlib>
 #include<iomanip>
+#include<cstdlib>
+#include<ctime>
 using namespace std;
 int main() {
 	unsigned int int1 = 0;
@@ -9,9 +10,14 @@ int main() {
 	unsigned int int4 = 0;
 	unsigned int int5 = 0;
 	unsigned int int6 = 0;
-	for (unsigned int i = 0; i < 6000000; ++i) {
+	unsigned int seed = 0;
+	//cout << "please enter the  seed" << endl;
+	//cin >> seed;
+	srand(static_cast<unsigned int> (time(0)));
+
+	for (unsigned int i = 0; i < 20; ++i) {
 		unsigned int face = rand() % 6 + 1;
-		std::cout << std::setw(10) << face;
+		cout << setw(10) << face;
 		switch (face)
 		{
 		case 1:
